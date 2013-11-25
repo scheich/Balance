@@ -1,9 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+*
+* Licensed under the Apache License, Version 2.0 (the "License"); you may
+* not use this file except in compliance with the License. You may obtain
+* a copy of the License at
+* http://www.apache.org/licenses/LICENSE-2.0
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*
+*/
+-->
 <resources>
 
-    <string name="app_name">USSDInterceptor</string>
-    <string name="uri_scheme">ussd</string>
-    <string name="uri_authority">cd</string>
-    <string name="uri_path">/</string>
-    <string name="uri_param_name">uval</string>
-
+    <string name="app_name">Balance</string>
+    <string name="balanceisupdating">Loading ...</string>
+    <string name="pleaserestart">Please restart your phone!</string>
+    <string name="pleaserestart_text">This app needs a restart of your phone in order to work</string>
+    <string name="p_ussdcode">USSD-Code</string>
+    <string name="p_ussdcode_dialog">Please enter the your need ussd-code:</string>
+    <string name="p_getdecimal">Try to find the value</string>
+    <string name="p_getdecimal_summary">If you uncheck this, the whole message will be displayed on the widget</string>
+    <string name="p_currencysymbol">Currency symbol</string>
+    <string name="p_currencysymbol_dialog">Change/remove the currency symbol:</string>
+    <string name="p_refresh">Refresh</string>
+    <string name="nextrrefresh">Next refresh:</string>
+    
 </resources>
