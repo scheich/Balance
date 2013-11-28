@@ -34,6 +34,7 @@ public class USSDService extends Service {
 		public CharSequence getMmiRunningText() throws RemoteException {
 			return context.getResources().getString(R.string.balanceisupdating);		
 		}
+		@SuppressWarnings("deprecation")
 		public CharSequence getUserMessage(CharSequence cs) throws RemoteException {
 
 			String text = String.valueOf(cs);

@@ -86,6 +86,7 @@ public class Configure extends PreferenceActivity {
 	public static final String CURRENCYSYMBOL = "currencysymbol";
 	public static final String CURRENCYSYMBOL_DEFAULT = Currency.getInstance(Locale.getDefault()).getSymbol();
 
+	@SuppressWarnings("deprecation")
 	public void onCreate(Bundle savedInstanceState) {
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 
@@ -304,6 +305,7 @@ public class Configure extends PreferenceActivity {
 
 	//
 
+	@SuppressWarnings("deprecation")
 	public static String setRTCAlarm(Context context, int updateRate) {
 
 		Calendar c = Calendar.getInstance();
