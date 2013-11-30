@@ -193,7 +193,7 @@ public class Configure extends PreferenceActivity {
 			etp_ussd.getEditText().setInputType(InputType.TYPE_CLASS_PHONE);
 			etp_ussd.setTitle(context.getResources().getString(R.string.p_ussdcode));
 			etp_ussd.setSummary(USSDCODE_DEFAULT);
-			etp_ussd.setDialogTitle(context.getResources().getString(R.string.p_currencysymbol_dialog));
+			etp_ussd.setDialogTitle(context.getResources().getString(R.string.p_ussdcode_dialog));
 			etp_ussd.setDefaultValue(USSDCODE_DEFAULT);
 			etp_ussd.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
 				public boolean onPreferenceChange(Preference p, Object o) {
